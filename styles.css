@@ -79,151 +79,20 @@ h2 {
 }
 
 .experience-section{
-  background: transparent;
-  padding: 36px 20px;
-  color: var(--text);
-  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+     margin-bottom: 20px;
 }
+/* style.css — styles for the Experience section (add to your existing stylesheet or use as separate file) */
 
-.experience-section .container{
-  max-width: var(--container-w);
-  margin: 0 auto;
-}
-
-/* header */
-.section-title{
-  font-size: 22px;
-  margin: 0 0 12px 0;
-  font-weight: 700;
-}
-
-/* role card */
-.role-card{
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-  border-radius: var(--radius);
-  padding: 18px;
-  box-shadow: 0 8px 30px rgba(3,7,18,0.6);
-  display: grid;
-  gap: 14px;
-}
-
-.role-header{
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.role-title{
-  font-size: 18px;
-  margin: 0;
-  font-weight: 700;
-  color: var(--text);
-}
-
-.role-title .company{
-  color: var(--accent);
-  font-weight: 700;
-}
-
-.role-meta{
-  margin: 0;
-  color: var(--muted);
-  font-size: 13px;
-}
-
-/* body layout */
-.role-body{
-  display: grid;
-  grid-template-columns: 1fr 320px;
-  gap: 18px;
-  align-items: start;
-}
-
-/* summary */
-.summary p{
-  margin: 0;
-  color: var(--muted);
-  line-height: 1.6;
-}
-
-/* skills and tools */
-.skills-tools{
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.skills-block, .tools-block{
-  background: var(--glass);
-  padding: 12px;
-  border-radius: 10px;
-}
-
-.skills-block h4, .tools-block h4{
-  margin: 0 0 8px 0;
-  font-size: 14px;
-  color: var(--text);
-}
-
-.skills-list, .tools-list{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.skills-list li, .tools-list li{
-  background: rgba(255,255,255,0.02);
-  padding: 6px 10px;
-  border-radius: 8px;
-  font-size: 13px;
-  color: var(--muted);
-  white-space: nowrap;
-}
-
-/* actions */
-.role-actions{
-  display:flex;
-  gap:10px;
-  align-items:center;
-  margin-top:8px;
-}
-
-.btn-primary, .btn-ghost{
-  display:inline-block;
-  padding:8px 12px;
-  border-radius:10px;
-  text-decoration:none;
-  font-weight:700;
-  font-size:13px;
-}
-
-.btn-primary{
-  background: linear-gradient(90deg, var(--accent), #60a5fa);
-  color: #052022;
-  border: none;
-}
-
-.btn-ghost{
-  background: transparent;
-  color: var(--accent);
-  border: 1px solid rgba(110,231,183,0.12);
-}
-
-/* Responsive */
-@media (max-width: 880px){
-  .role-body{
-    grid-template-columns: 1fr;
-  }
-  .skills-list li, .tools-list li{
-    font-size: 14px;
-  }
-  .experience-section{
-    padding: 24px 14px;
-  }
-}
+:root{
+  --bg: #0b1220;
+  --card: #071226;
+  --muted: #94a3b8;
+  --accent: #6ee7b7;
+  --glass: rgba(255,255,255,0.03);
+  --container-w: 1100px;
+  --radius: 12px;
+  --text: #e6eef8;
+ 
 
 .progress {
     background-color: #e0e0e0;
@@ -269,4 +138,5 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
 
