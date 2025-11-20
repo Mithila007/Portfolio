@@ -3,106 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-     <link rel="stylesheet" href="style.css">
+    <title>Portfolio Preview</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Poppins, sans-serif; }
+        body { background: #000; color: #fff; line-height: 1.6; }
+        header { text-align: center; padding: 60px 20px; background: #111; border-bottom: 1px solid #333; }
+        h1 { font-size: 40px; color: #87CEEB; }
+        .subtitle { margin-top: 10px; font-size: 18px; color: #ddd; }
+        .links a { margin: 10px; color: #ff72b6; text-decoration: none; font-weight: bold; }
+        .links a:hover { text-decoration: underline; }
+        .section { padding: 50px 10%; }
+        .section h2 { font-size: 28px; margin-bottom: 20px; color: #87CEEB; }
+        ul { margin-left: 20px; }
+        .card { background: #111; padding: 20px; border-radius: 10px; border: 1px solid #333; margin-bottom: 20px; }
+        footer { text-align: center; padding: 20px; background: #111; border-top: 1px solid #333; color: #aaa; }
+    </style>
 </head>
 <body>
 
-    <header>
-        <div class="container">
-            <h1>Sabikunnahar Mithila</h1>
-            <p class="subtitle">Software Quality Assurance Engineer</p>
+<header>
+    <h1>Sabikunnahar Mithila</h1>
+    <p class="subtitle">Software Quality Assurance Engineer</p>
+    <div class="links">
+        <a href="mithila1531@gmail.com">Email</a>
+        <a href=""http://linkedin.com/in/mithila07">LinkedIn</a>
+        <a href="https://github.com/Mithila007">GitHub</a>
+    </div>
+</header>
 
-            <div class="links">
-                <a href="mailto:mithila1531@gmail.com">Email</a>
-                <a href="https://linkedin.com/in/mithila07" target="_blank">LinkedIn</a>
-                <a href="https://github.com/Mithila007" target="_blank">GitHub</a>
-            </div>
-        </div>
-    </header>
+<section class="section">
+    <h2>About Me</h2>
+    <p>I am a Software Quality Assurance Engineer currently working at Piistech Limited.
+       Skilled in Manual & Automation Testing, API Testing, Bug Tracking and Reporting.
+       Passionate about problem-solving and continuous learning.</p>
+</section>
 
-    <!-- About Section -->
-    <section class="section">
-        <h2>About Me</h2>
-        <p>
-            I am a Software Quality Assurance Engineer currently working at Piistech Limited.  
-            Skilled in Manual & Automation Testing, API Testing, Bug Tracking and Reporting.  
-            Passionate about problem-solving and continuous learning.
-        </p>
-    </section>
+<section class="section">
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><strong>Programming:</strong> Python, C, Java, JavaScript, PHP (Basic), MySQL</li>
+        <li><strong>QA Skills:</strong> Manual & Automation Testing, JUnit, JMeter, Selenium, Postman, Clickup,Test Case Writing</li>
+        <li><strong>Tools:</strong> VS Code, Linux Shell Scripting, Windows, Excel, Canva, Git</li>
+        <li><strong>Soft Skills:</strong> Problem-solving, communication, analytical ability</li>
+    </ul>
+</section>
 
-    <!-- Skills Section -->
-    <section class="section">
-        <h2>Technical Skills</h2>
+<section class="section">
+    <h2>Work Experience</h2>
+    <div class="card">
+        <h3>Software Quality Assurance Engineer</h3>
+        <p><em>Piistech Limited — Present</em></p>
+        <p>Working on manual and automation testing of web and mobile applications.</p>
+    </div>
 
-        <ul>
-            <li><strong>Programming:</strong> Python, C, Java, JavaScript, PHP (Basic), MySQL</li>
-            <li><strong>QA Skills:</strong> Manual & Automation Testing, JUnit, JMeter, Selenium, Clickup, Postman,Test Case Writing</li>
-            <li><strong>Tools:</strong> VS Code, Linux Shell Scripting, Windows, Excel, Canva, Git</li>
-            <li><strong>Soft Skills:</strong> Problem-solving, communication, analytical ability</li>
-        </ul>
-    </section>
+    <div class="card">
+        <h3>Software QA Intern</h3>
+        <p><em>Piistech Limited</em></p>
+        <p>Gained hands-on experience in manual testing.</p>
+    </div>
 
-    <!-- Experience Section -->
-    <section class="section">
-        <h2>Work Experience</h2>
+    <div class="card">
+        <h3>Python Developer Intern</h3>
+        <p>Developed small Python-based applications.</p>
+    </div>
+</section>
 
-        <div class="card">
-            <h3>Software Quality Assurance Engineer</h3>
-            <p><em>Piistech Limited — Present</em></p>
-            <p>Working on manual and automation testing of web and mobile applications.</p>
-        </div>
+<section class="section">
+    <h2>Education</h2>
+    <p><strong>B.Sc. in Computer Science & Engineering</strong> — NITER</p>
+    <p>CGPA: 3.64 | Year: 2025</p>
+</section>
 
-        <div class="card">
-            <h3>Software QA Intern</h3>
-            <p><em>Piistech Limited</em></p>
-            <p>Gained hands-on experience in manual testing.</p>
-        </div>
+<footer>
+    <p> Sabikunnahar Mithila | All Rights Reserved</p>
+</footer>
 
-        <div class="card">
-            <h3>Python Developer Intern</h3>
-            <p>Developed small Python-based applications.</p>
-        </div>
-    </section>
-
-    <!-- Education -->
-    <section class="section">
-        <h2>Education</h2>
-        <p><strong>B.Sc. in Computer Science & Engineering</strong> — NITER</p>
-        <p>CGPA: 3.64 | Year: 2025</p>
-    </section>
-
-    <footer>
-        <p>© 2025 Sabikunnahar Mithila | All Rights Reserved</p>
-    </footer>
-
-<script src="script.js"></script>
 </body>
 </html>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <h2>Contact Me</h2>
-        <div class="contact-info">
-            <p><i class="fas fa-envelope"></i> mithila1531@gmail.com</p>
-            <p><i class="fas fa-phone"></i> +8801531542003</p>
-            <p><strong>LinkedIn:</strong> 
-           <a href="http://linkedin.com/in/mithila07" target="_blank" style="color:var(--accent); text-decoration:none;">
-           linkedin.com/in/mithila07
-           </a>
-            <p><i class="fas fa-map-marker-alt"></i> Demra, Dhaka, Bangladesh</p>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>2025 Sabikunnahar Mithila</p>
-    </footer>
-
-    <script src="scripts.js"></script>
-</body>
-</html>
-
-
-
-
